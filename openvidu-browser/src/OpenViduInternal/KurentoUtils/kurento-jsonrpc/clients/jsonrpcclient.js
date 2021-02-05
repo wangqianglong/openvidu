@@ -16,7 +16,7 @@
  */
 
 var RpcBuilder = require('../');
-var WebSocketWithReconnection = require('./transports/webSocketWithReconnection');
+var WebSocketWithReconnection = require('./transports/webSocketWithReconnection').WebSocketWithReconnection;
 var OpenViduLogger = require('../../../Logger/OpenViduLogger').OpenViduLogger;
 
 Date.now = Date.now || function () {
